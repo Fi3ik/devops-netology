@@ -15,3 +15,7 @@ override.tf.json  -игнорирование файлов с именем overr
 
 .terraformrc  -игнорирование файлов с именем .terraformrc 
 terraform.rc  -игнорирование файлов с именем terraform.rc
+
+__________________________________________________
+
+New line
