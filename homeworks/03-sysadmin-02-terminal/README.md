@@ -70,13 +70,13 @@ srvadmin pts/1        2022-08-29 17:48 (*.*.*.*)
 srvadmin pts/2        2022-08-29 17:49 (*.*.*.*)
 ```
 
-:::image type="content" source="1.png" alt-text="111":::
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-02-terminal/1.png)
 
 ```bash
 echo "Test" > /dev/pts/0
 ```
 
-:::image type="content" source="2.png" alt-text="222":::
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-02-terminal/2.png)
 
 ---
 ### 7. Выполните команду `bash 5>&1`. К чему она приведет? Что будет, если вы выполните `echo netology > /proc/$$/fd/5`? Почему так происходит?
