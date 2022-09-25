@@ -44,7 +44,7 @@
     Данная конфигурация создаст новую виртуальную машину с двумя дополнительными неразмеченными дисками по 2.5 Гб.
 
 
-![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-05-fs/newvm.jpg)
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-05-fs/new_vm.jpg)
 ---
 
 ### 4. Используя `fdisk`, разбейте первый диск на 2 раздела: 2 Гб, оставшееся пространство.
