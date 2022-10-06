@@ -60,9 +60,7 @@ Remote Address: 151.101.1.69:443
 Referrer Policy: strict-origin-when-cross-origin
 ```
 
-
-
-
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-06-net/scr1.png)
 
 
 
