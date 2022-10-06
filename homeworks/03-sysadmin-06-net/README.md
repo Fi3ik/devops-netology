@@ -62,7 +62,7 @@ Referrer Policy: strict-origin-when-cross-origin
 
 
 
-![](file:///scr1.png)
+
 
 
 
