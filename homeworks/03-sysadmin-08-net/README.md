@@ -234,5 +234,5 @@ UNCONN                 0                      0                                 
 5. Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
 
 
-![Image alt](https://github.dev/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-08-net/net.png)
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-08-net/net.png)
  ---
