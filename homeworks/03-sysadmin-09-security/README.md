@@ -2,7 +2,11 @@
 
 1. Установите Bitwarden плагин для браузера. Зарегестрируйтесь и сохраните несколько паролей.
 
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-09-security/bitwarden.png)
+
 2. Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP.
+
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-09-security/bitwarden2.png)
 
 3. Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS.
 
@@ -19,6 +23,9 @@ Organizational Unit Name (eg, section) []:Home
 Common Name (e.g. server FQDN or YOUR name) []:10.0.2.15
 Email Address []:v******@gmail.com
 ```
+
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-09-security/apache_ssl.png)
+
 
 4. Проверьте на TLS уязвимости произвольный сайт в интернете (кроме сайтов МВД, ФСБ, МинОбр, НацБанк, РосКосмос, РосАтом, РосНАНО и любых госкомпаний, объектов КИИ, ВПК ... и тому подобное).
 
@@ -321,3 +328,5 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 byt
 101 packets received by filter
 0 packets dropped by kernel
 ```
+
+![Image alt](https://github.com/Fi3ik/devops-netology/blob/main/homeworks/03-sysadmin-09-security/wireshark.png)
