@@ -24,12 +24,3 @@
 <p align="center">
   <img width="1200" height="600" src="./assets/yc_03.png">
 </p>
-
-
-
-
-
-
-<p align="center">
-  <img width="1200" height="600" src="./assets/yc_02.png">
-</p>
