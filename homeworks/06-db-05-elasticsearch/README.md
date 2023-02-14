@@ -165,7 +165,7 @@ curl -X PUT http://localhost:9200/ind-3?pretty -H 'Content-Type: application/jso
 
 - Список индексов
 
-```http request
+```bash
 ubuntu:/srv/els$ curl -X GET http://localhost:9200/_cat/indices
 green  open ind-1 sJ4aBNJ_TbG6NgxjZAwzaA 1 0 0 0 225b 225b
 yellow open ind-3 t_SJ7xDhSXS2HO4taAQvcA 4 2 0 0 900b 900b
@@ -174,7 +174,7 @@ yellow open ind-2 fOOSfMuqSQC1BhcaU1JYRw 2 1 0 0 450b 450b
 
 - Состояние кластера
 
-```http request
+```bash
 ubuntu:/srv/els$ curl -X GET http://127.0.0.1:9200/_cat/shards?h=index,shard,prirep,state,unassigned.reason
 .geoip_databases 0 p STARTED
 ind-3            0 p STARTED
@@ -198,7 +198,7 @@ ind-1            0 p STARTED
 
 - Удаление индексов
 
-```http request
+```bash
 ubuntu:/srv/els$ curl -X DELETE http://localhost:9200/ind-1
 ubuntu:/srv/els$ curl -X DELETE http://localhost:9200/ind-2
 ubuntu:/srv/els$ curl -X DELETE http://localhost:9200/ind-3
@@ -267,7 +267,7 @@ ubuntu:/srv/els$  curl -X PUT http://localhost:9200/test?pretty -H 'Content-Type
 ```
 
 - Список индексов
-```http request
+```bash
 ubuntu:/srv/els$  curl -X GET http://localhost:9200/_cat/indices
 green open test 7sB7kk0rRJqjXB5kh2S7zA 1 0 0 0 225b 225b
 ```
@@ -358,7 +358,7 @@ ubuntu:/srv/els$ curl -X PUT "http://localhost:9200/_snapshot/netology_backup/%3
 ```
 
 - Перечень файлов в директории снэпшотов
-```http request
+```bash
 ubuntu:/srv/els$ docker exec -it es01 sh -c "ls -la /opt/elasticsearch/snapshots"
 total 32
 drwxr-xr-x 3 elasticsearch elasticsearch   134 Feb 14 19:11 .
@@ -396,13 +396,13 @@ ubuntu:/srv/els$ curl -X PUT http://localhost:9200/test-2?pretty -H 'Content-Typ
 ```
 
 - Список индексов
-```http request
+```bash
 ubuntu:/srv/els$ curl -X GET http://localhost:9200/_cat/indices
 green open test-2 JU-36-N_TYKYbLfo0CmrJQ 1 0 0 0 225b 225b
 ```
 
 - Восстановление индекса `test`
-```http request
+```bash
 ubuntu:/srv/els$ curl -X POST "localhost:9200/_snapshot/netology_backup/test_2023.02.14/_restore?pretty"
 {
   "accepted" : true
@@ -410,7 +410,7 @@ ubuntu:/srv/els$ curl -X POST "localhost:9200/_snapshot/netology_backup/test_202
 ```
 
 - Итоговый список индексов
-```http request
+```bash
 ubuntu:/srv/els$ curl -X GET http://localhost:9200/_cat/indices
 green open test-2 JU-36-N_TYKYbLfo0CmrJQ 1 0 0 0 225b 225b
 green open test   OpWkgDWzTN-f86Zg00R1CA 1 0 0 0 225b 225b
