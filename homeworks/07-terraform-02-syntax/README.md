@@ -84,4 +84,4 @@ secret_key     ****************WXuK shared-credentials-file
 1. Packer
 
 1.
-[Репозиторий с конфигурацией терраформа](https://github.com/fi3ik/devops-netology/tree/main/07-terraform-02-syntax/terraform)
+[Репозиторий с конфигурацией терраформа](https://github.com/Fi3ik/devops-netology/tree/main/homeworks/07-terraform-02-syntax/terraform)
